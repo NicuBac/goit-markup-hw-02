@@ -1,0 +1,181 @@
+:root {
+  --active-link: #2196F3;
+  --full-black: #000000;
+  --body-color: #212121;
+  --white: #ffffff;
+  --address-color: #757575;
+  --background: #2F303A;
+  --hover-button: #188CE8;
+  --team-section: #F5F4FA;
+}
+
+.navigation:hover,
+.navigation:focus, 
+.navigation:active,  
+.address:hover,
+.address:focus,
+.address:active {
+  color: var(--active-link);
+}
+
+
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: var(--body-color);
+  font-weight: 400;
+  font-size:16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue-title {
+  color: var(--active-link);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+}
+
+.black-title {
+  color: var(--full-black);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+}
+
+.white-title {
+  color: var(--white);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body-color);
+}
+
+.current {
+  color: var(--active-link);
+}
+
+.address {
+  color: var(--address-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.main-effective-sol {
+  background-color: var(--background);
+}
+
+h1 {
+  color: var(--white);
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 44px;
+}
+
+.request-button {
+  color: var(--white);
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  background-color: var(--active-link);
+  cursor:pointer;
+  line-height: 1.9;
+}
+
+.request-button:hover,
+.request-button:focus {
+  background-color: var(--hover-button);
+}
+
+.h4-roboto {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.paragraph-roboto {
+  color: var(--address-color);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.h2-title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 36px;
+  line-height: 2.5;
+}
+
+.our-team-section {
+  background-color: var(--team-section);
+}
+
+.staff-names {
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.job-name {
+  line-height: 1.2;
+  text-align: center;
+  color: var(--address-color);
+}
+
+.office-address {
+  color: var(--white);
+  font-style: normal;
+}
+
+.footer-address {
+  font-style: normal;
+  color: var(--white);
+  opacity: 60%;
+}
+
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--active-link)
+}
+
+footer {
+  background-color: var(--background);
+}
+
+.category-button {
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  background-color: var(--team-section);
+  cursor:pointer;
+  line-height: 1.6;
+  border: none;
+}
+
+.selected {
+  background-color: var(--active-link);
+  color:var(--white);
+
+}
+
+.project-title {
+  font-weight: 700;
+  line-height: 2.2;
+  font-size:18px
+}
+
+.project-type {
+  line-height: 1.9;
+  color: var(--address-color);
+}
