@@ -163,10 +163,10 @@ footer {
   border: none;
 }
 
-.selected {
+.category-button:focus,
+.category-button:active {
   background-color: var(--active-link);
   color:var(--white);
-
 }
 
 .project-title {
