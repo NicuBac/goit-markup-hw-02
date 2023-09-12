@@ -164,7 +164,8 @@ footer {
 }
 
 .category-button:focus,
-.category-button:active {
+.category-button:active,
+.category-button:hover {
   background-color: var(--active-link);
   color:var(--white);
 }
